@@ -1,3 +1,6 @@
+# localize
+document = window.document
+
 defaultOptions =
   # How long should it take for the bar to animate to a new
   # point after receiving it

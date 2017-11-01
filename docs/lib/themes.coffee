@@ -16,7 +16,7 @@ compileTheme = (body, args={}) ->
     else
       # It matters that args is in the context
       Color = window.Color
-      val = eval(code)
+      val = window.eval(code)
 
     val
 

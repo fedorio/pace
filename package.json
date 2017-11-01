@@ -1,10 +1,11 @@
 {
   "name": "pace-progress",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatic page load progress bar",
   "authors": [
     "Zack Bloom <zackbloom@gmail.com>",
-    "Adam Schwartz <adam.flynn.schwartz@gmail.com>"
+    "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
+    "Allex Wang <allex.wxn@gmail.com>"
   ],
   "license": "MIT",
   "main": "pace.js",
@@ -12,13 +13,24 @@
     "type": "git",
     "url": "git://github.com/HubSpot/pace.git"
   },
+  "scripts": {
+    "build": "coffee ./.build/build.coffee"
+  },
   "devDependencies": {
-    "grunt-contrib-coffee": "~0.7.0",
-    "coffee-script": "~1.6.3",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-cli": "~0.1.9",
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "color": "~0.4.4"
-  }
+    "coffeescript": "^1",
+    "color": "~0.4.4",
+    "config-finder": "^1.0.2",
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "rollup-worker": "^1.0.1",
+    "rollup-plugin-coffee-script": "^2.0.0"
+  },
+  "dependencies": {
+  },
+  "maintainers": [
+    {
+      "name": "allex",
+      "email": "allex.wxn@gmail.com"
+    }
+  ]
 }
